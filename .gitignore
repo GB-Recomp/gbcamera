@@ -1,0 +1,21 @@
+build/
+assets/
+
+# ROMs are user-supplied; don't commit them.
+roms/*.gb
+roms/*.gbc
+roms/*.sgb
+
+# Per-cart save state files written by the runtime.
+*.sav
+*.sav.*
+*.rtc
+
+# Runtime prefs file.
+*.prefs
+
+# Editor / OS noise.
+.idea/
+.vscode/
+*.swp
+.DS_Store
